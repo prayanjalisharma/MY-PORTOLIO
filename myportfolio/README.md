@@ -67,3 +67,19 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Deploying to Netlify
+
+To deploy this Vite + React + TypeScript project to Netlify:
+
+1. **Build Command:**
+   ```
+   npm run build
+   ```
+2. **Publish Directory:**
+   ```
+   dist
+   ```
+3. The `_redirects` file in `public/` ensures client-side routing works correctly for SPAs.
+
+You can drag and drop the `dist/` folder to Netlify, or connect your repository and set the above build settings in the Netlify dashboard.
