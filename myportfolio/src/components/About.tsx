@@ -50,7 +50,7 @@ const About = () => {
     {
       title: 'Stay Mate - Hotel Booking and Rating App,',
       description: 'A hotel booking and rating app where users can list, review stays, and detail their experience with authentication and image management. Associated with the feature to book the hotel as per others review and availability.',
-      tech: ['Python', 'Django', 'Chart.js']
+      tech: ['MERN']
     }
   ];
 
